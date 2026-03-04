@@ -1,0 +1,300 @@
+    1  git clone https://github.com/Weakne55/Bioinformatics305.git
+    2  cd Bioinformatics305
+    3  git remote remove origin
+    4  git remote add origin https://github.com/ivantoropov-1/Bioinformatics305.git
+    5  rm raw_data/*.tmp
+    6  git add raw_data/
+    7  git commit -m "Cleanup temp files"
+    8  git push origin main
+    9  ls
+   10  cd lab_disaster
+   11  rm raw_data/*.tmp
+   12  git add raw_data/
+   13  git commit -m "Cleanup temp files"
+   14  git config --global user.email "ivantoropov2005@gmail.com"
+   15  git config --global eser.name "ivantoropov-1"
+   16  rm raw_data/*.tmp
+   17  ls
+   18  git commit -m "Cleanup temp files"
+   19  git config --global user.email ivantoropov2005@gmail.com
+   20  git config --global eser.name ivantoropov-1
+   21  git commit -m "Cleanup temp files"
+   22  git config --global user.email ivantoropov2005@gmail.com
+   23  git config --global user.name ivantoropov-1
+   24  git commit -m "Cleanup temp files"
+   25  ls
+   26  raw_data
+   27  git push origin main
+   28  git push origin master
+   29  ssh-keygen -t ed25519 -C "ivantoropov2005@gmail.com"
+   30  cat ~/.ssh/id_ed25519.pub
+   31  ssh -T git@github.com
+   32  git remote set-url origin git@github.com:ivantoropov2005/Bioinformatics305.git
+   33  git push origin master
+   34  git remote -v
+   35  git push origin master
+   36  git remote -v
+   37  git remote set-url origin https://github.com/ivantoropov-1/Bioinformatics305.git
+   38  git remote -v
+   39  git push origin master
+   40  git remote set-url origin git@github.com:ivantoropov2005/Bioinformatics305.git
+   41  git remote set-url origin git@github.com:ivantoropov-1/Bioinformatics305.git
+   42  ssh -T git@github.com
+   43  git push origin master
+   44  grep -c "TGCA" raw_data/huge_sequencing_run.fastq
+   45  grep "TGCA" raw_data/huge_sequencing_run.fastq > infected_reads.txt
+   46  git checkout -b investigation
+   47  git add infected_reads.txt
+   48  git commit -m "Add infected reads list"
+   49  git push origin investigation
+   50  (head -n 50 raw_data/huge_sequencing_run.fastq && tail -n 50 raw_data/huge_sequencing_run.fastq) > mini_run.fastq
+   51  git add mini_run.fastq
+   52  git commit -m "Add mini_run.fastq with first and last 50 lines"
+   53  git push origin investigation
+   54  rm experiment.log
+   55  ls experiment.log
+   56  git status
+   57  git checkout -- experiment.log
+   58  echo "git checkout -- experiment.log" > command.txt
+   59  git checkout main
+   60  git add command.txt
+   61  git commit -m "Add restore command for experiment.log"
+   62  git push origin main
+   63  git push origin master
+   64  cat > access.log << EOF
+   65  User: LabAdmin
+   66  User: Student
+   67  User: Hacker
+   68  User: LabAdmin
+   69  User: Student
+   70  User: Student
+   71  EOF
+   72  sort access.log | uniq -c | sort -r > sort.txt
+   73  git add access.log sort.txt
+   74  git commit -m "Add access log and sorted results"
+   75  git push origin main
+   76  git merge investigation
+   77  git push origin maыеук
+   78  git push origin master
+   79  echo "GeneA GeneB GeneC" > genes.tsv
+   80  tr ' ' ',' < genes.tsv > genes_fixed.csv
+   81  git add genes_fixed.csv
+   82  git commit -m "Add genes_fixed.csv with commas instead of spaces"
+   83  git push origin master
+   84  find . -type f -size +1k -exec du -b {} \; > diskusage.file
+   85  find . -name "*.fastq" -exec du -b {} \; >> diskusage.file
+   86  git checkout -b cleaning
+   87  git add diskusage.file
+   88  git commit -m "Add disk usage info for large files and fastq files"
+   89  git push origin cleaning
+   90  echo "Some content" > anyfile.txt
+   91  git add anyfile.txt
+   92  git commit -m "Add anyfile.txt"
+   93  git log --oneline | head -n 1 | cut -c1-4
+   94  echo "This file was forgotten" > forgotten.txt
+   95  git add forgotten.txt
+   96  git commit --amend --no-edit
+   97  git log --oneline
+   98  cat > amend.txt << EOF
+   99  1. Изменился ли хеш коммита? Да
+  100  2. Почему, если сообщение осталось тем же? Хеш зависит от содержимого файлов, а не от сообщения. Добавление forgotten.txt изменило содержимое.
+  101  EOF
+  102  git add amend.txt
+  103  git commit -m "Add answers about amend"
+  104  git push origin master
+  105  history | grep git > report_commands.txt
+  106  git add report_commands.txt
+  107  git commit -m "Add report of git commands"
+  108  git push origin master
+  109  git checkout cleaning
+  110  git merge master
+  111  git push origin cleaning
+  112  git checkout master
+  113  git branch -d cleaning
+  114  git branch -d investigation
+  115  git push origin --delete cleaning
+  116  git push origin --delete investigation
+  117  ls -la report_commands.txt
+  118  history | grep git > report_commands.txt
+  119  git status
+  120  git add report_commands.txt
+  121  git commit -m "Add report of git commands"
+  122  git push origin master
+  123  ls
+  124  history
+  125  vim ~/.vimrc
+  126  git checkout -b homework2
+  127  ls
+  128  cd Bioinformatics305
+  129  git checkout -b homework2
+  130  mkdir Homework2
+  131  cd Homework2
+  132  nano ~/.nanorc
+  133  nano README.md
+  134  nano ~/.nanorc
+  135  nano ~/.bashrc
+  136  lla
+  137  nano ~/.bashrc
+  138  source ~/.bashrc
+  139  lla
+  140  cd ~/Homework2  # или путь к твоей папке
+  141  nano find_key.sh
+  142  chmod +x find_key.sh
+  143  nano describe.txt
+  144  git branch
+  145  git add find_key.sh describe.txt
+  146  ls
+  147  mv describe.txty describe.txt
+  148  ls
+  149  git add find_key.sh describe.txt
+  150  git status
+  151  git commit -m "Задание 1: скрипт поиска ключа и описание /dev/null"
+  152  git push origin homework2
+  153  ./find_key.sh
+  154  cat find_key.sh
+  155  nano find_key.sh
+  156  ./find_key.sh
+  157  nano datascience_env.yml
+  158  conda env create -f datascience_env.yml
+  159  wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+  160  bash Miniconda3-latest-Linux-x86_64.sh
+  161  source ~/.bashrc
+  162  conda --version
+  163  conda update conda
+  164  conda env create -f datascience_env.yml
+  165  conda activate bio_advanced
+  166  conda list | awk '{print $1, $3, $4}' | column -t
+  167  conda list --explicit > conda_report.txt
+  168  cat conda_report.txt
+  169  git add datascience_env.yml conda_report.txt
+  170  git commit -m "Задание 2: создано окружение bio_advanced"
+  171  git push origin homework2
+  172  nano project_init.sh
+  173  chmod +x project_init.sh
+  174  ./project_init.sh ClinicalTrial2026
+  175  ls -la ClinicalTrial2026/
+  176  ls -la ClinicalTrial2026/data/
+  177  ls -la ClinicalTrial2026/scripts/
+  178  nano .gitignore
+  179  nano gitignore_explain.txt
+  180  git add project_init.sh .gitignore gitignore_explain.txt
+  181  git commit -m "Задание 3: скрипт и .gitignore"
+  182  git push origin homework2
+  183  nano organizer.sh
+  184  chmod +x organizer.sh
+  185  ./organizer.sh
+  186  ls -la fastqs/
+  187  head fastqs/sample_1.fastq fastqs/sample_2.fastq fastqs/sample_3.fastq
+  188  cat fastqs/sample_5.fastq
+  189  git add organizer.sh
+  190  git commit -m "Задание 4: скрипт organizer.sh
+  191  "
+  192  git push origin homework2
+  193  nano file_manager.sh
+  194  chmod +x file_manager.sh
+  195  ./file_manager.sh
+  196  ls -la report.txt
+  197  ./file_manager.sh
+  198  ls -la report.txt
+  199  nano find.txt
+  200  git add file_manager.sh find.txt
+  201  git commit -m "Задание 5: скрипт file_manager.sh и результаты тестирования"
+  202  git push origin homework2
+  203  nano output.txt
+  204  nano greeter.sh
+  205  chmod +x greeter.sh
+  206  ./greeter.sh Ivan
+  207  ./greeter.sh Ivan Ivanov Bio305
+  208  nano output.txt
+  209  git add greeter.sh output.txt
+  210  git commit -m "Задание 6: скрипт greeter.sh и примеры запуска"
+  211  git push origin homework2
+  212  nano ~/.bashrc
+  213  source ~/.bashrc
+  214  touch test.txt
+  215  rm test.txt
+  216  git add ~/.bashrc
+  217  nano alias_info.txt
+  218  git add alias_info.txt
+  219  git commit -m "Задание 7: алиас rm -i. Для всех пользователей нужно править /etc/bash.bashrc"
+  220  git push origin homework2
+  221  w > users.txt
+  222  id >> users.txt
+  223  cat users.txt
+  224  man id
+  225  git add users.txt
+  226  git commit -m "Задание 8: вывод команд w и id в users.txt. id - показывает информацию о пользователе: UID (идентификатор пользователя), GID (идентификатор группы) и группы, в которые входит пользователь"
+  227  git push origin homework2
+  228  export LINUXINFO="Timestamp: $(date) | hostname is $(hostname) and logged in user is $(whoami)"
+  229  echo $LINUXINFO
+  230  echo $LINUXINFO > variable_check.txt
+  231  cat variable_check.txt
+  232  git add variable_check.txt
+  233  git commit -m "Задание 9: создана переменная LINUXINFO с датой, хостом и пользователем"
+  234  git push origin homework2
+  235  echo $PS1 > ps1_backup.txt
+  236  cat ps1_backup.txt
+  237  echo $PS1
+  238  export PS1='\t \u own-prompt $ '
+  239  cat ps1_backup.txt
+  240  export PS1='(bio_advanced) \u@\h:\w$ '
+  241  git commit -m "Задание 10: эксперименты с PS1, бэкап и восстановление"
+  242  cd ~
+  243  git clone https://github.com/ваш-username/bioinformatics_hw.git
+  244  cd bioinformatics_hw
+  245  cd ~
+  246  git clone https://github.com/grigmer/bioinformatics_hw.git
+  247  cd bioinformatics_hw
+  248  echo "# Bioinformatics Homework" > README.md
+  249  echo "## Student: Меркулов" >> README.md
+  250  echo "Задание 1 — Linux, Git, R" >> README.md
+  251  git add README.md
+  252  git commit -m "Init"
+  253  git push origin main
+  254  mkdir -p linux_task/data/raw
+  255  cd linux_task/data/raw
+  256  git push origin main
+  257  cd bioinformatics_hw
+  258  cd~
+  259  cd ~
+  260  cd bioinformatics_hw
+  261  git push origin main
+  262  mkdir -p linux_task/data/raw
+  263  cd linux_task/data/raw
+  264  touch sample1.tsv sample2.tsv sample3.tsv
+  265  echo -e "GeneID\tExpression_Value" > sample1.tsv
+  266  cat sample1.tsv
+  267  cd ../../..
+  268  git add linux_task/
+  269  git commit -m "Create raw data structure"
+  270  cd linux_task/data/raw
+  271  cat > sequencing_summary.txt << EOF
+run_id: RUN001
+date: 2026-02-18
+sample: sample1
+platform: Illumina
+read_length: 150
+total_reads: 1024
+sample: sample2
+total_reads: 2048
+sample: sample3
+total_reads: 4096
+EOF
+
+  272  grep "sample" sequencing_summary.txt > samples_list.txt
+  273  echo "Total samples found: $(grep -c "sample" sequencing_summary.txt)" >> samples_list.txt
+  274  tail -n 5 samples_list.txt
+  275  cd ../../..
+  276  git add linux_task/data/raw/
+  277  git commit -m "Add sample list and count"
+  278  git checkout -b git-practice
+  279  echo "This is very important data." > important_note.txt
+  280  git add important_note.txt
+  281  git commit -m "Add important note"
+  282  rm important_note.txt
+  283  git status
+  284  git restore important_note.txt
+  285  echo "git restore important_note.txt" > git_command.txt
+  286  git add git_command.txt
+  287  git commit -m "Restore deleted file"
+  288  history > commands_history.txt
