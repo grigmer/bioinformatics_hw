@@ -1,0 +1,7 @@
+"bwa": "/home/STUDY/FBMF/bioinformatics/soft/SPAdes-4.2.0-Linux/bin/spades-bwa"
+"dataset": "/home/STUDY/FBMF/studfbmf02_08/hw4/spades_results/input_dataset.yaml"
+"log_filename": "log.properties"
+"max_nthreads": !!int "16"
+"output_dir": "/home/STUDY/FBMF/studfbmf02_08/hw4/spades_results/mismatch_corrector/contigs"
+"strategy": "mapped_squared"
+"work_dir": "/home/STUDY/FBMF/studfbmf02_08/hw4/spades_results/tmp/corrector_jtm64wm5"

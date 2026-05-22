@@ -1,0 +1,23 @@
+Assembly	Velvet_old	Velvet_improved	SPAdes_old	SPAdes_improved
+# contigs (>= 0 bp)	541	13	49	42
+# contigs (>= 1000 bp)	0	0	1	1
+# contigs (>= 5000 bp)	0	0	0	0
+# contigs (>= 10000 bp)	0	0	0	0
+# contigs (>= 25000 bp)	0	0	0	0
+# contigs (>= 50000 bp)	0	0	0	0
+Total length (>= 0 bp)	51988	3204	15064	13799
+Total length (>= 1000 bp)	0	0	1069	1062
+Total length (>= 5000 bp)	0	0	0	0
+Total length (>= 10000 bp)	0	0	0	0
+Total length (>= 25000 bp)	0	0	0	0
+Total length (>= 50000 bp)	0	0	0	0
+# contigs	541	13	49	42
+Largest contig	414	414	1069	1062
+Total length	51988	3204	15064	13799
+GC (%)	47.88	46.72	45.47	45.04
+N50	104	243	440	387
+N90	61	207	148	150
+auN	114.7	256.9	484.1	491.3
+L50	185	6	12	11
+L90	456	12	37	32
+# N's per 100 kbp	0.00	0.00	0.00	0.00

@@ -1,0 +1,68 @@
+ø---
+max read length: 151
+nomerge max read length: 151
+average read length: 66.9608
+average coverage: 81.2983
+libraries:
+  - type:            paired-end
+    number:          1
+    orientation:     fr
+    left reads:
+      - '/home/STUDY/FBMF/bioinformatics/genome_de_novo/7_S4_L001_R1_001.fastq'
+    right reads:
+      - '/home/STUDY/FBMF/bioinformatics/genome_de_novo/7_S4_L001_R2_001.fastq'
+    data:
+      unmerged read length: 151
+      merged read length: 0
+      insert size mean: 110.577
+      insert size deviation: 29.2762
+      insert size left quantile: 82
+      insert size right quantile: 152
+      insert size median: 103
+      insert size mad: 23
+      insert size distribution: { 78: 181, 79: 172, 80: 182, 81: 135, 82: 190, 
+                                  83: 172, 84: 153, 85: 180, 86: 180, 87: 143, 
+                                  88: 166, 89: 140, 90: 140, 91: 120, 92: 157, 
+                                  93: 90, 94: 111, 95: 153, 96: 100, 97: 116, 
+                                  98: 105, 99: 99, 100: 114, 101: 85, 102: 75, 
+                                  103: 105, 104: 89, 105: 97, 106: 95, 
+                                  107: 82, 108: 108, 109: 65, 110: 65, 
+                                  111: 88, 112: 68, 113: 84, 114: 62, 115: 75, 
+                                  116: 61, 117: 51, 118: 73, 119: 81, 120: 68, 
+                                  121: 66, 122: 74, 123: 57, 124: 60, 125: 57, 
+                                  126: 68, 127: 55, 128: 57, 129: 51, 130: 44, 
+                                  131: 39, 132: 33, 133: 58, 134: 24, 135: 72, 
+                                  136: 27, 137: 54, 138: 38, 139: 44, 140: 33, 
+                                  141: 33, 142: 34, 143: 25, 144: 27, 145: 44, 
+                                  146: 31, 147: 42, 148: 21, 149: 23, 150: 24, 
+                                  151: 23, 152: 33, 153: 24, 154: 33, 155: 31, 
+                                  156: 19, 157: 20, 158: 25, 159: 30, 160: 27, 
+                                  161: 19, 162: 28, 163: 6, 164: 6, 165: 13, 
+                                  166: 18, 167: 11, 168: 12, 169: 11, 170: 18, 
+                                  171: 8, 172: 17, 173: 21, 174: 13, 175: 12, 
+                                  176: 6, 177: 12, 178: 9, 179: 12, 180: 7, 
+                                  181: 12, 182: 9, 183: 11, 184: 8, 185: 8, 
+                                  186: 9, 187: 2, 188: 6, 189: 6, 190: 6, 
+                                  191: 4, 192: 4, 193: 7, 194: 4, 195: 3, 
+                                  198: 6, 199: 4, 200: 4, 201: 5, 202: 2, 
+                                  203: 4, 204: 6, 205: 2, 207: 3, 209: 2, 
+                                  210: 5, 211: 5, 212: 5, 213: 4, 214: 6, 
+                                  215: 1, 217: 3, 218: 2, 220: 3, 221: 3, 
+                                  222: 2, 223: 2, 224: 4, 225: 5, 227: 1, 
+                                  228: 2, 229: 3, 231: 2, 235: 1, 237: 2, 
+                                  238: 2, 242: 2, 243: 2, 244: 1, 245: 2, 
+                                  246: 2, 256: 1, 260: 1, 264: 2, 267: 2, 
+                                  269: 2, 273: 2 }
+      pi threshold:    0
+      binary reads info:
+        binary converted: true
+        bin reads info file: '/home/STUDY/FBMF/studfbmf02_08/hw4/spades_improved/.bin_reads/INFO_0'
+        paired read prefix: '/home/STUDY/FBMF/studfbmf02_08/hw4/spades_improved/.bin_reads/paired_0'
+        merged read prefix: '/home/STUDY/FBMF/studfbmf02_08/hw4/spades_improved/.bin_reads/merged_0'
+        single read prefix: '/home/STUDY/FBMF/studfbmf02_08/hw4/spades_improved/.bin_reads/single_0'
+        chunk num:       4
+      single reads mapped: false
+      library index:   0
+      number of reads: 133336
+      total nucleotides: 8928286
+...

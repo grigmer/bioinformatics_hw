@@ -1,0 +1,23 @@
+Assembly                    Velvet_k11  Velvet_k21  Velvet_k31  SPAdes
+# contigs (>= 0 bp)         3073        2060        541         49    
+# contigs (>= 1000 bp)      0           0           0           1     
+# contigs (>= 5000 bp)      0           0           0           0     
+# contigs (>= 10000 bp)     0           0           0           0     
+# contigs (>= 25000 bp)     0           0           0           0     
+# contigs (>= 50000 bp)     0           0           0           0     
+Total length (>= 0 bp)      79010       133813      51988       15064 
+Total length (>= 1000 bp)   0           0           0           1069  
+Total length (>= 5000 bp)   0           0           0           0     
+Total length (>= 10000 bp)  0           0           0           0     
+Total length (>= 25000 bp)  0           0           0           0     
+Total length (>= 50000 bp)  0           0           0           0     
+# contigs                   3073        2060        541         49    
+Largest contig              63          253         414         1069  
+Total length                79010       133813      51988       15064 
+GC (%)                      49.49       47.33       47.88       45.47 
+N50                         25          67          104         440   
+N90                         21          41          61          148   
+auN                         26.9        77.4        114.7       484.1 
+L50                         1304        702         185         12    
+L90                         2697        1734        456         37    
+# N's per 100 kbp           0.00        0.00        0.00        0.00  

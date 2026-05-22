@@ -1,0 +1,33 @@
+Command line: /home/STUDY/FBMF/bioinformatics/soft/SPAdes-4.2.0-Linux/bin/spades.py	--isolate	-1	/home/STUDY/FBMF/bioinformatics/genome_de_novo/7_S4_L001_R1_001.fastq	-2	/home/STUDY/FBMF/bioinformatics/genome_de_novo/7_S4_L001_R2_001.fastq	-o	/home/STUDY/FBMF/studfbmf02_08/hw4/spades_improved	
+
+System information:
+  SPAdes version: 4.2.0
+  Python version: 3.9.25
+  OS: Linux-5.14.0-611.47.1.el9_7.x86_64-x86_64-with-glibc2.34
+
+Output dir: /home/STUDY/FBMF/studfbmf02_08/hw4/spades_improved
+Mode: ONLY assembling (without read error correction)
+Debug mode is turned OFF
+
+Dataset parameters:
+  Isolate mode
+  Reads:
+    Library number: 1, library type: paired-end
+      orientation: fr
+      left reads: ['/home/STUDY/FBMF/bioinformatics/genome_de_novo/7_S4_L001_R1_001.fastq']
+      right reads: ['/home/STUDY/FBMF/bioinformatics/genome_de_novo/7_S4_L001_R2_001.fastq']
+      interlaced reads: not specified
+      single reads: not specified
+      merged reads: not specified
+Assembly parameters:
+  k: automatic selection based on read length
+  Repeat resolution is enabled
+  Mismatch careful mode is turned OFF
+  MismatchCorrector will be SKIPPED
+  Coverage cutoff is turned OFF
+  Assembly graph output will use GFA v1.2 format
+Other parameters:
+  Dir for temp files: /home/STUDY/FBMF/studfbmf02_08/hw4/spades_improved/tmp
+  Threads: 16
+  Memory limit (in Gb): 7
+
